@@ -1,0 +1,229 @@
+/* start : 공통 CSS */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'ad';
+    box-sizing: border-box;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.flex-box {
+    display: flex;
+}
+.inner {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    border: 0 none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* start : 각 섹션 타이틀 */
+.section-tit h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 14px
+}
+.section-tit p {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 24px;
+}
+/* end : 각 섹션 타이틀 */
+
+/* end : 공통 CSS */
+
+/* HEADER */
+/* start : HEADER-SCROLL */
+header.scroll {
+    background: #fff;
+}
+
+header.scroll > .inner .flex-box .left-box .logo-img .white-logo {
+    display: none;
+}
+
+header.scroll > .inner .flex-box .left-box .logo-img .black-logo {
+    display: block;
+}
+header.scroll > .inner .flex-box .left-box nav .list-dep1 .item-dep1 > a {
+    color: #333;
+}
+
+header.scroll .inner .right-box .nav-util .util-item > div >.util-icon1 {
+    background: url(../img/header/icon_search_black.png) no-repeat center / 30px 30px;
+}
+header.scroll .inner .right-box .nav-util .util-item > div > .util-icon2 {
+    background: url(../img/header/icon_cart_black.png) no-repeat center / 30px 30px;
+}
+header.scroll .inner .right-box .nav-util .util-item > div > .util-icon3 {
+    background: url(../img/header/icon_more_black.png) no-repeat center / 30px 30px;
+}
+
+header.scroll .inner .right-box .nav-drop .drop-item1 {
+    color: #333;
+}
+header.scroll .inner .right-box .nav-drop .drop-item1 .arrow {
+    background: url("../img/header/icon_drop-black.png") no-repeat center / 7px 4px;
+}
+/* end : HEADER-SCROLL */
+
+/* start : HEADER-HOVER */
+header:hover {
+    background: #fff;
+}
+
+header:hover >.inner .flex-box .left-box .logo-img .white-logo {
+    display: none;
+}
+header:hover>.inner .flex-box .left-box .logo-img .black-logo {
+    display: block;
+}
+header:hover > .inner .flex-box .left-box nav .list-dep1 .item-dep1 > a {
+    color: #333;
+}
+
+header:hover .inner .right-box .nav-util .util-item>div>.util-icon1 {
+    background: url(../img/header/icon_search_black.png) no-repeat center / 30px 30px;
+}
+header:hover .inner .right-box .nav-util .util-item>div>.util-icon2 {
+    background: url(../img/header/icon_cart_black.png) no-repeat center / 30px 30px;
+}
+header:hover .inner .right-box .nav-util .util-item>div>.util-icon3 {
+    background: url(../img/header/icon_more_black.png) no-repeat center / 30px 30px;
+}
+
+header:hover .inner .right-box .nav-drop .drop-item1 {
+    color: #333;
+}
+header:hover .inner .right-box .nav-drop .drop-item1 .arrow {
+    background: url("../img/header/icon_drop_hover.png") no-repeat center / 7px 4px;
+}
+/* end : HEADER-HOVER */
+
+/* start : HEADER-RIGHT-BOX 공통 */
+header .inner .right-box .drop-list {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    background: #fff;
+    text-align: right;
+}
+header .inner .right-box .drop-list .drop-item2 {
+    padding: 8px 20px;
+}
+header .inner .right-box .drop-list .drop-item2:hover > a {
+    color: #6C801A;
+}
+
+header .inner .right-box .drop-list .drop-item2:first-child {
+    padding-top: 20px;
+}
+header .inner .right-box .drop-list .drop-item2:last-child {
+    padding-bottom: 20px;
+}
+header .inner .right-box .drop-list .drop-item2 a {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+header .inner .right-box .nav-util .util-item:hover .drop-list {
+    max-height: 500px;
+}
+header .inner .right-box .nav-drop .drop-item1:hover .drop-list {
+    max-height: 500px;
+}
+header .inner .right-box .nav-drop .drop-item1:hover {
+    color: #6C801A;
+}
+/* end : HEADER-RIGHT-BOX 공통 */
+
+/* start : BTN */
+.main-button {
+    margin-top: 48px;
+    text-align: center;
+}
+.btn-A {
+    padding: 0 60px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    text-align: center;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    color: #666;
+    background: #fff;
+}
+/* end : BTN */
+
+/* start : FOOTER */
+.footer .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* end : FOOTER */
+
+/* start : footer customer 공통 CSS */
+.footer .customer .tit{
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #7b7b7b;
+}
+.footer .customer .email{
+    color: #595959;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.footer .customer .phone{
+    margin-top: 1px;
+    font-size: 34px;
+    font-size: 2.125rem;
+    color: #595959;
+}
+.footer .customer .time{
+    font-size: 12px;
+    letter-spacing: -0.5px;
+    margin-top: 2px;
+}
+.footer .customer .kakao-id{
+    font-size: 13px;
+    font-weight: 700;
+    color: #797979;
+}
+.footer .customer .kakao-time{
+    font-size: 12px;
+    margin: 10px 0;
+}
+/* end : footer customer 공통 CSS */
+
+

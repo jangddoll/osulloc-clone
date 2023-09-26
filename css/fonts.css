@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'ad';
+    src: url('../fonts/Arita-dotum-Medium_OTF00.woff2') format('woff2'),
+        url('../fonts/Arita-dotum-Medium_OTF00.woff') format('woff'),
+        url('../fonts/Arita-dotum-Medium_OTF00.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ad';
+    src: url('../fonts/Arita-dotum-Light_OTF00.woff2') format('woff2'),
+        url('../fonts/Arita-dotum-Light_OTF00.woff') format('woff'),
+        url('../fonts/Arita-dotum-Light_OTF00.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ad';
+    src: url('../fonts/Arita-dotum-Bold_OTF00.woff2') format('woff2'),
+        url('../fonts/Arita-dotum-Bold_OTF00.woff') format('woff'),
+        url('../fonts/Arita-dotum-Bold_OTF00.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ad';
+    src: url('../fonts/Arita-dotum-SemiBold_OTF00.woff2') format('woff2'),
+        url('../fonts/Arita-dotum-SemiBold_OTF00.woff') format('woff'),
+        url('../fonts/Arita-dotum-SemiBold_OTF00.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ad';
+    src: url('../fonts/Arita-dotum-Thin_OTF00.woff2') format('woff2'),
+        url('../fonts/Arita-dotum-Thin_OTF00.woff') format('woff'),
+        url('../fonts/Arita-dotum-Thin_OTF00.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GangwonEdu_OTFLightA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFLightA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

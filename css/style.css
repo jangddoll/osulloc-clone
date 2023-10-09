@@ -275,7 +275,7 @@ header .inner .right-box .nav-drop .drop-item1 .language_list {
 
 .main-banner .banner-btn {
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     left: 60px;
     border: solid 1px #555;
     width: 110px;
@@ -567,7 +567,7 @@ header .inner .right-box .nav-drop .drop-item1 .language_list {
     content: "";
     display: block;
     width: 22px;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     margin-right: 6px;
     background: url("../img/section2/todayTimer.png") no-repeat center / cover;
 }
@@ -596,7 +596,7 @@ header .inner .right-box .nav-drop .drop-item1 .language_list {
 }
 .discount .discount-box a .dis-text .dis-cont .dis-price-box .sale-per {
     width: 74px;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     background: #fd5c5c;
     color: #fff;
